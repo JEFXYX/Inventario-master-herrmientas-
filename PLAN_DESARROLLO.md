@@ -36,11 +36,11 @@ Reglas:
 
 ## Distribucion Por Desarrollador
 
-| Desarrollador | Responsabilidad Principal | Rama |
-|---|---|---|
-| Dev 1 | Backend/API, modelos, validaciones, auth, ventas, stock | `feature/dev1-backend-fase-N` |
-| Dev 2 | Frontend React, pantallas, formularios, navegacion, consumo API | `feature/dev2-frontend-fase-N` |
-| Dev 3 | Testing, integracion, CI/CD, documentacion, Swagger, validacion E2E | `feature/dev3-qa-integracion-fase-N` |
+| Desarrollador | Responsabilidad Principal                                           | Rama                                 |
+| ------------- | ------------------------------------------------------------------- | ------------------------------------ |
+| Dev 1         | Backend/API, modelos, validaciones, auth, ventas, stock             | `feature/dev1-backend-fase-N`        |
+| Dev 2         | Frontend React, pantallas, formularios, navegacion, consumo API     | `feature/dev2-frontend-fase-N`       |
+| Dev 3         | Testing, integracion, CI/CD, documentacion, Swagger, validacion E2E | `feature/dev3-qa-integracion-fase-N` |
 
 ## Fase 0: Preparacion Tecnica
 
