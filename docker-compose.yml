@@ -19,8 +19,6 @@ services:
     depends_on:
       postgres:
         condition: service_healthy
-    networks:
-      - inventory-network
 
   frontend:
     build:
@@ -31,8 +29,6 @@ services:
       - "80"
     depends_on:
       - api
-    networks:
-      - inventory-network
 
   postgres:
     image: postgres:16-alpine
@@ -51,12 +47,6 @@ services:
       interval: 5s
       timeout: 5s
       retries: 5
-    networks:
-      - inventory-network
 
 volumes:
   postgres-data:
-
-networks:
-  inventory-network:
-    driver: bridge
